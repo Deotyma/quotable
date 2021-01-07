@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7d5c65;
+    font-family: 'Reenie Beanie', cursive, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    min-height: 80vh;
+    width: 30rem;
+    border-radius: 30px;
+    padding: 0 1rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.top {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top img {
+    width: 20rem;
+    z-index: 1;
+}
+
+.circle {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(229, 190, 237), rgb(124, 144, 219));
+    position: absolute;
+}
+
+.citation
