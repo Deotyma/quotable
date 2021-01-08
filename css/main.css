@@ -34,6 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .top img {
@@ -49,4 +50,31 @@ body {
     position: absolute;
 }
 
-.citation
+.citation {
+    color: #413d52;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.author {
+    color: #463439;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: end;
+}
+
+.button {
+    background: linear-gradient(to right, rgb(229, 190, 237), rgb(124, 144, 219));
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background: linear-gradient(to right, rgb(124, 144, 219), rgb(229, 190, 237));
+}
