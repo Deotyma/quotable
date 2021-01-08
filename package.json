@@ -1,0 +1,26 @@
+{
+  "name": "quotable",
+  "version": "1.0.0",
+  "description": "Little app with nice citations in english",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deotyma/quotable.git"
+  },
+  "keywords": [
+    "citation",
+    "quota"
+  ],
+  "author": "Deotyma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deotyma/quotable/issues"
+  },
+  "homepage": "https://github.com/Deotyma/quotable#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
