@@ -5,8 +5,8 @@ const card = document.querySelector('.card');
 //items
 
 const flower = document.querySelector('.top img');
-const citation = document.querySelector('.citation');
-const author = document.querySelector('.author');
+const citation = document.querySelector('#citation');
+const author = document.querySelector('#author');
 const button = document.querySelector('.button');
 
 //moving event
